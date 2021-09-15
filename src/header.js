@@ -13,27 +13,30 @@ class header extends Component{
         this.the2D = <Gallery2d/>;
         this.theHome = <Home/>;
         this.theContact=<Contact/>;
+        this.subMenu = <ul className = 'subMenu'>
+            <div onClick = {(event)=>this.selectPage(event)}>3D</div>
+            <div onClick = {(event)=>this.selectPage(event)}>2D</div></ul>
         this.selectPage = this.selectPage.bind(this);
         this.state = {
             content:this.theHome,
-            subMenu:<div></div>
+            subMenu:this.subMenu
         }
     }
     
     selectPage(event){
         let name = 'the'+event.target.innerText;
+        this.pageSelected()
         this.setState(()=>{
-            return{content:this[name],
-                    subMenu: <div></div>}
+            return{content:this[name],}
         })
     }
     selectSubPage(event){
-        this.setState(()=>{
-            return {subMenu:<ul>
-                <div onClick = {(event)=>this.selectPage(event)}>3D</div>
-                <div onClick = {(event)=>this.selectPage(event)}>2D</div>
-            </ul>}
-        })
+        let visibleMenu = document.getElementsByClassName('subMenu');
+        visibleMenu[0].classList.add('visible');
+    }
+    pageSelected(){
+        let visibleMenu = document.getElementsByClassName('subMenu');
+        visibleMenu[0].classList.remove('visible');
     }
 
     render(){
@@ -41,10 +44,16 @@ class header extends Component{
         return(
             <div id = 'mainPage'>
                 <div id='VerticalMenu'>
-                    <button className="navButton" onClick = {(event)=>this.selectPage(event)}>Home</button>
-                    <button className="navButton" onClick = {(event)=>this.selectSubPage(event)}>Gallery</button>
-                    {this.state.subMenu}
-                    <button className="navButton" onClick = {(event)=>this.selectPage(event)}>Contact</button>
+                    <div className = 'navDiv'>
+                        <button className="navButton" onClick = {(event)=>this.selectPage(event)}>Home</button>
+                    </div>
+                    <div className = 'navDiv'>
+                        <button className="navButton" onClick = {(event)=>this.selectSubPage(event)}>Gallery</button>
+                        {this.state.subMenu}
+                    </div>
+                    <div className = 'navDiv'>
+                        <button className="navButton" onClick = {(event)=>this.selectPage(event)}>Contact</button>
+                    </div>
                 </div>
                 <div className='content'>
                     {this.state.content}

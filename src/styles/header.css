@@ -12,8 +12,6 @@
     border: none;
     margin-right: 100%;
     height: 30%;
-    z-index: 99;
-    scale:(1, 1);
 }
 .navButton:hover{
     scale:(1.05, 1.05);
@@ -23,4 +21,16 @@
     flex-direction: row;
     height: 100%;
     align-items: stretch;
+}
+.subMenu.visible{
+    transform:translate(0px,0);
+}
+.subMenu{
+    transform:translate(-300px,0);
+    transition: .5s ease-in-out;
+}
+.navDiv{
+    height: 30%;
+    width: 100%;
+    overflow:hidden;
 }
