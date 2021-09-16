@@ -40,7 +40,6 @@ class header extends Component{
     }
 
     render(){
-        console.log('hey!!!!');
         return(
             <div id = 'mainPage'>
                 <div id='VerticalMenu'>
