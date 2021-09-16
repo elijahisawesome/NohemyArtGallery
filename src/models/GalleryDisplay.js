@@ -14,7 +14,6 @@ class GalleryDisplay extends Component{
   }
   
   render(){
-
     return(
       this.models[this.props.pos]
     )

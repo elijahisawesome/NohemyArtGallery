@@ -1,7 +1,7 @@
 import React, {Suspense, useRef, useState} from 'react';
 import {Canvas, useFrame, useLoader} from "@react-three/fiber";
 import {OrbitControls} from '@react-three/drei';
-import GalleryDisplay from '../models/GalleryDisplay.js';
+import GalleryDisplay, {count} from '../models/GalleryDisplay.js';
 import '../styles/Gallery.css';
 
 function Gallery(){
@@ -11,16 +11,17 @@ function Gallery(){
     
     const scroll= function(val){
         if(val<0 && position==0){
-            setPosition(GalleryDisplay.count-1)
+            setPosition(count-1)
         }
         else{
-            setPosition(GalleryDisplay.count%(position + val));
+            console.log(position);
+            setPosition((position + val)%count);
         }      
     }
-
     
     return(
         <div className='Canvas'>
+            <div className='galleryButton left' onClick={()=>{scroll(-1)}}>&#60;</div>
             <Canvas>
                 <Suspense fallback={null}>
                     <GalleryDisplay pos={position}/>
@@ -28,6 +29,7 @@ function Gallery(){
                     <ambientLight intensity={1}/>
                 </Suspense>
             </Canvas>
+            <div className='galleryButton right' onClick={()=>{scroll(1)}}>&#62;</div>
         </div>
     )
 
