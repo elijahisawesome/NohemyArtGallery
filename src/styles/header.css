@@ -24,8 +24,11 @@
 #mainPage{
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: 60%;
     align-items: stretch;
+    position:absolute;
+    top:20%;
+    width:100%;
 }
 .subMenu.visible{
     transform:translate(0,0);

@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import Rolodex from './Rolodex';
+import Rolodex from './Rolodex.js';
 import Button from './Button.js';
-
-//add models to a queue, select from queue using props.
 
 let count;
 

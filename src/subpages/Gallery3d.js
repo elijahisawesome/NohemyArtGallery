@@ -14,7 +14,6 @@ function Gallery(){
             setPosition(count-1)
         }
         else{
-            console.log(position);
             setPosition((position + val)%count);
         }      
     }

@@ -1,4 +1,4 @@
-const img0 = require('./Concept.png')
+import img0 from '../images/Concept.png';
 
 let count;
 export default function GalleryDisplay2d(props){
