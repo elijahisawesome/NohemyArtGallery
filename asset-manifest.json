@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/NohemyArtGallery/static/css/main.e2fcb917.chunk.css",
+    "main.js": "/NohemyArtGallery/static/js/main.1fd631fd.chunk.js",
+    "main.js.map": "/NohemyArtGallery/static/js/main.1fd631fd.chunk.js.map",
+    "runtime-main.js": "/NohemyArtGallery/static/js/runtime-main.26d0d897.js",
+    "runtime-main.js.map": "/NohemyArtGallery/static/js/runtime-main.26d0d897.js.map",
+    "static/js/2.61925a0e.chunk.js": "/NohemyArtGallery/static/js/2.61925a0e.chunk.js",
+    "static/js/2.61925a0e.chunk.js.map": "/NohemyArtGallery/static/js/2.61925a0e.chunk.js.map",
+    "index.html": "/NohemyArtGallery/index.html",
+    "static/css/main.e2fcb917.chunk.css.map": "/NohemyArtGallery/static/css/main.e2fcb917.chunk.css.map",
+    "static/js/2.61925a0e.chunk.js.LICENSE.txt": "/NohemyArtGallery/static/js/2.61925a0e.chunk.js.LICENSE.txt",
+    "static/media/Concept.png": "/NohemyArtGallery/static/media/Concept.ebfbe18d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26d0d897.js",
+    "static/js/2.61925a0e.chunk.js",
+    "static/css/main.e2fcb917.chunk.css",
+    "static/js/main.1fd631fd.chunk.js"
+  ]
+}
