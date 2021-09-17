@@ -48,7 +48,9 @@ class header extends Component{
                     </div>
                     <div className = 'navDiv'>
                         <button className="navButton" onClick = {(event)=>this.selectSubPage(event)}>Gallery</button>
-                        {this.state.subMenu}
+                        <div className = 'subMenuHolder'>
+                            {this.state.subMenu}
+                        </div>
                     </div>
                     <div className = 'navDiv'>
                         <button className="navButton" onClick = {(event)=>this.selectPage(event)}>Contact</button>
