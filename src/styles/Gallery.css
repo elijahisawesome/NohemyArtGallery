@@ -10,10 +10,16 @@
     font-size: 53px;
     width: 15%;
     line-height: 500px;
+    color:rgb(185,122,87);
+    transition:1s ease-in-out;
 }
 .galleryButton.right{
     margin-right:10%;
 }
+.galleryButton.left{
+   
+}
 .galleryButton:hover{
-    background-color:whitesmoke;
+    transform:scale(1.01);
+    cursor: pointer;
 }

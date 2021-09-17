@@ -12,9 +12,14 @@
     border: none;
     margin-right: 100%;
     height: 30%;
+    color:rgb(191,203,239);
+    font-size: 20px;
+    font-weight: 1000;
+    transition: .02s ease-in-out
 }
 .navButton:hover{
-    scale:(1.05, 1.05);
+    transform:scale(1.05);
+    cursor:pointer;
 }
 #mainPage{
     display: flex;
@@ -23,14 +28,19 @@
     align-items: stretch;
 }
 .subMenu.visible{
-    transform:translate(0px,0);
+    transform:translate(0,0);
 }
 .subMenu{
-    transform:translate(-300px,0);
-    transition: .5s ease-in-out;
+    transform:translate(-75px,0);
+    transition: .2s ease-in-out;
+    color:rgb(191,203,239);
+    font-size: 15px;
+    font-weight: 1000;
+    padding-left: -10%;
 }
 .navDiv{
     height: 30%;
     width: 100%;
     overflow:hidden;
+    padding-left: 10%;
 }

@@ -21,7 +21,7 @@ function Gallery(){
     
     return(
         <div className='Canvas'>
-            <div className='galleryButton left' onClick={()=>{scroll(-1)}}>&#60;</div>
+            <div className='galleryButton left' onClick={()=>{scroll(-1)}}>&#9664;</div>
             <Canvas>
                 <Suspense fallback={null}>
                     <GalleryDisplay pos={position}/>
@@ -29,7 +29,7 @@ function Gallery(){
                     <ambientLight intensity={1}/>
                 </Suspense>
             </Canvas>
-            <div className='galleryButton right' onClick={()=>{scroll(1)}}>&#62;</div>
+            <div className='galleryButton right' onClick={()=>{scroll(1)}}>&#9654;</div>
         </div>
     )
 
