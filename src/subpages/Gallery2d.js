@@ -1,12 +1,13 @@
 import React,{ Component } from "react"
-import GalleryDisplay from '../images/GalleryDisplay.js';
-import {count} from '../images/GalleryDisplay.js';
+import GalleryDisplay, {count}  from '../images/GalleryDisplay.js';
+import FullSize from '../images/GalleryDisplayThumbnails.js';
 
 class Gallery2d extends Component{
     constructor(props){
         super(props);
         this.state = {
-            position:0
+            position:0,
+            hoverClass:'notVisible'
         }
     }
     scroll(val){
@@ -21,12 +22,27 @@ class Gallery2d extends Component{
             })
         }      
     }
+    hoveredImage(hovered){
+        if(hovered){
+        this.setState({
+            hoverClass:'visible'
+        })}
+        else{
+            this.setState({
+                hoverClass:'notVisible'
+            })
+        }
+    }
     render(){
         return(
-            <div>
+            <div className='Canvas2d'>
                 <div className='galleryButton left' onClick={()=>{this.scroll(-1)}}>&#9664;</div>
-                <GalleryDisplay pos={this.state.position}/>
-                <div className='galleryButton right' onClick={()=>{this.scroll(-1)}}>&#9654;</div>
+                <div className='Image2dHolder' onMouseEnter={()=>{this.hoveredImage(true)}} onMouseLeave={()=>{this.hoveredImage(false)}}>
+                    <GalleryDisplay className='Image2d' pos={this.state.position}/>
+                    <div>{this.state.position+1}-{count}</div>
+                    <FullSize className={this.state.hoverClass} id={'hoverboy'} pos={this.state.position}/>
+                </div>
+                <div className='galleryButton right' onClick={()=>{this.scroll(1)}}>&#9654;</div>
             </div>
         )
     }

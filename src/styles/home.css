@@ -1,0 +1,12 @@
+.centeredBasicImage{
+    display: flex;
+    flex-direction:column;
+    height:100%;
+}
+.centeredBasicImage2dHolder{
+    height:70%;
+    width: 30%;
+    left:35%;
+    top:100px;
+    position:absolute;
+}
