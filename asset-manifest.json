@@ -1,21 +1,34 @@
 {
   "files": {
-    "main.css": "/NohemyArtGallery/static/css/main.e2fcb917.chunk.css",
-    "main.js": "/NohemyArtGallery/static/js/main.1fd631fd.chunk.js",
-    "main.js.map": "/NohemyArtGallery/static/js/main.1fd631fd.chunk.js.map",
+    "main.css": "/NohemyArtGallery/static/css/main.ddf99760.chunk.css",
+    "main.js": "/NohemyArtGallery/static/js/main.68b2db3a.chunk.js",
+    "main.js.map": "/NohemyArtGallery/static/js/main.68b2db3a.chunk.js.map",
     "runtime-main.js": "/NohemyArtGallery/static/js/runtime-main.26d0d897.js",
     "runtime-main.js.map": "/NohemyArtGallery/static/js/runtime-main.26d0d897.js.map",
-    "static/js/2.61925a0e.chunk.js": "/NohemyArtGallery/static/js/2.61925a0e.chunk.js",
-    "static/js/2.61925a0e.chunk.js.map": "/NohemyArtGallery/static/js/2.61925a0e.chunk.js.map",
+    "static/js/2.88ee4ff7.chunk.js": "/NohemyArtGallery/static/js/2.88ee4ff7.chunk.js",
+    "static/js/2.88ee4ff7.chunk.js.map": "/NohemyArtGallery/static/js/2.88ee4ff7.chunk.js.map",
     "index.html": "/NohemyArtGallery/index.html",
-    "static/css/main.e2fcb917.chunk.css.map": "/NohemyArtGallery/static/css/main.e2fcb917.chunk.css.map",
-    "static/js/2.61925a0e.chunk.js.LICENSE.txt": "/NohemyArtGallery/static/js/2.61925a0e.chunk.js.LICENSE.txt",
-    "static/media/Concept.png": "/NohemyArtGallery/static/media/Concept.ebfbe18d.png"
+    "static/css/main.ddf99760.chunk.css.map": "/NohemyArtGallery/static/css/main.ddf99760.chunk.css.map",
+    "static/js/2.88ee4ff7.chunk.js.LICENSE.txt": "/NohemyArtGallery/static/js/2.88ee4ff7.chunk.js.LICENSE.txt",
+    "static/media/MCP_2660.4924b561.png": "/NohemyArtGallery/static/media/MCP_2660.4924b561.png",
+    "static/media/MCP_2661.408e2c9c.png": "/NohemyArtGallery/static/media/MCP_2661.408e2c9c.png",
+    "static/media/MCP_2663.93ed6047.png": "/NohemyArtGallery/static/media/MCP_2663.93ed6047.png",
+    "static/media/MCP_2665.9a295bc8.png": "/NohemyArtGallery/static/media/MCP_2665.9a295bc8.png",
+    "static/media/MCP_2667.31f33768.png": "/NohemyArtGallery/static/media/MCP_2667.31f33768.png",
+    "static/media/MCP_2674.fcf43458.png": "/NohemyArtGallery/static/media/MCP_2674.fcf43458.png",
+    "static/media/bottom_banner.ad40b96f.png": "/NohemyArtGallery/static/media/bottom_banner.ad40b96f.png",
+    "static/media/thumb-MCP_2660.0ccb0d0b.png": "/NohemyArtGallery/static/media/thumb-MCP_2660.0ccb0d0b.png",
+    "static/media/thumb-MCP_2661.8a6d6e10.png": "/NohemyArtGallery/static/media/thumb-MCP_2661.8a6d6e10.png",
+    "static/media/thumb-MCP_2663.86772fb5.png": "/NohemyArtGallery/static/media/thumb-MCP_2663.86772fb5.png",
+    "static/media/thumb-MCP_2665.d69777b3.png": "/NohemyArtGallery/static/media/thumb-MCP_2665.d69777b3.png",
+    "static/media/thumb-MCP_2667.75921b7b.png": "/NohemyArtGallery/static/media/thumb-MCP_2667.75921b7b.png",
+    "static/media/thumb-MCP_2674.d2a4076b.png": "/NohemyArtGallery/static/media/thumb-MCP_2674.d2a4076b.png",
+    "static/media/top_banner.b2f0f081.png": "/NohemyArtGallery/static/media/top_banner.b2f0f081.png"
   },
   "entrypoints": [
     "static/js/runtime-main.26d0d897.js",
-    "static/js/2.61925a0e.chunk.js",
-    "static/css/main.e2fcb917.chunk.css",
-    "static/js/main.1fd631fd.chunk.js"
+    "static/js/2.88ee4ff7.chunk.js",
+    "static/css/main.ddf99760.chunk.css",
+    "static/js/main.68b2db3a.chunk.js"
   ]
 }
