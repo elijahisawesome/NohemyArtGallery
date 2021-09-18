@@ -15,3 +15,5 @@ function App() {
 }
 
 export default App;
+
+//Update banners to swap image when window reaches 1275 in length!!
